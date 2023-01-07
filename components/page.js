@@ -11,7 +11,7 @@ function Page({ linkTo, NavigateTo, title }) {
   const lastUpdate = useSelector((state) => state.lastUpdate)
   return (
     <div>
-      <h1>{title}</h1>
+      {/* <h1>{title}</h1>
       <Clock lastUpdate={lastUpdate} light={light} />
       <Counter />
       <nav>
@@ -22,7 +22,7 @@ function Page({ linkTo, NavigateTo, title }) {
           <code>{JSON.stringify(placeholderData, null, 2)}</code>
         </pre>
       )}
-      {error && <p style={{ color: 'red' }}>Error: {error.message}</p>}
+      {error && <p style={{ color: 'red' }}>Error: {error.message}</p>} */}
     </div>
   )
 }
